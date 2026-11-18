@@ -1,0 +1,16 @@
+{
+  "name": "hush",
+  "owner": {
+    "name": "OpenYard"
+  },
+  "metadata": {
+    "description": "hush: stop Claude Code narrating its plan in your code comments."
+  },
+  "plugins": [
+    {
+      "name": "hush",
+      "source": "./",
+      "description": "Catches comments that narrate the work right after Claude writes them, and has Claude rewrite them."
+    }
+  ]
+}

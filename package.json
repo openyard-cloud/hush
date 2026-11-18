@@ -1,0 +1,36 @@
+{
+  "name": "hush",
+  "version": "0.1.0",
+  "description": "Stop your coding agent narrating in code comments: no more \"Phase 8.1:\", \"(Task 7)\" or \"the old code did X\" in your files.",
+  "type": "module",
+  "bin": {
+    "hush": "bin/hush.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "hooks",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "claude-code",
+    "hooks",
+    "code-comments",
+    "ai-slop",
+    "linter",
+    "coding-agents"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openyard-cloud/hush.git"
+  }
+}

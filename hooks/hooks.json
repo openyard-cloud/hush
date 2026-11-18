@@ -1,0 +1,13 @@
+{
+  "description": "hush: after each edit, catch comments that narrate the work instead of describing the code",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          { "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/bin/hush.mjs\" hook", "timeout": 10 }
+        ]
+      }
+    ]
+  }
+}

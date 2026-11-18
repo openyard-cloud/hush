@@ -1,0 +1,12 @@
+{
+  "name": "hush",
+  "version": "0.1.0",
+  "description": "Catches comments that narrate the work (\"Phase 8.1:\", \"(Task 7)\", \"the old code did X\") right after Claude writes them, and has Claude rewrite them.",
+  "author": {
+    "name": "OpenYard"
+  },
+  "homepage": "https://github.com/openyard-cloud/hush",
+  "repository": "https://github.com/openyard-cloud/hush",
+  "license": "MIT",
+  "keywords": ["comments", "hooks", "code-quality"]
+}
