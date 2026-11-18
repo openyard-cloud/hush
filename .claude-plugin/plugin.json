@@ -8,5 +8,10 @@
   "homepage": "https://github.com/openyard-cloud/hush",
   "repository": "https://github.com/openyard-cloud/hush",
   "license": "MIT",
-  "keywords": ["comments", "hooks", "code-quality"]
+  "keywords": [
+    "comments",
+    "hooks",
+    "code-quality"
+  ],
+  "icon": ".claude-plugin/icon.png"
 }
